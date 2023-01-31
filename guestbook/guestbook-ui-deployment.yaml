@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       #- image: pawanitzone/hyt-http:28
-       - image: nginx
+      - image: nginx
         name: guestbook-ui
         ports:
         - containerPort: 80
